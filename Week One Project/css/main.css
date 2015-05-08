@@ -10,6 +10,7 @@ body{
 #wrapper{
     width: 960px;
     background: linear-gradient(#000,#ff0000);
+    margin-bottom: 55px;   /*Moved footer down by putting margin on*/
 }
 
 /*Navigation*/
@@ -21,6 +22,9 @@ ul#navigation li{
     padding: 4px;
     margin-right: 50px;
     margin-left: 50px;
+    /*background-image: url("../images/avengers_thumbail.png");*/
+    /*background-repeat: no-repeat;*/
+    /*overflow: hidden;*/
 }
 
 /*Navigation Links*/
@@ -70,13 +74,17 @@ p{
 }
 
 /*QUESTION=======================*/
-ul#AvengersAssemble{
+/*ul#AvengersAssemble{*/
     /*font-size: 14px;*/
-    border: dotted 3px #000000;
+/*}*/
+
+/*Question answered, put ul li instead of #AvengersAssemble*/
+ul li {
+    font-size: 16px;
 }
 
 em{
-    font-size: 7px;
+    font-size: 12px;
 }
 
 /*Captain America*/
@@ -100,8 +108,6 @@ img#captainamerica{
 
 footer{
     text-align: center;
-    overflow: hidden;
-
 }
 
 
