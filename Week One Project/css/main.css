@@ -1,0 +1,141 @@
+
+/*Body*/
+body{
+    font: 10px/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #efe;
+    background: linear-gradient(#000,#ff0000);
+}
+
+/*Wrapper*/
+#wrapper{
+    width: 960px;
+    background: linear-gradient(#000,#ff0000);
+}
+
+/*Navigation*/
+
+ul#navigation li{
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 4px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/*Navigation Links*/
+a:link{
+    color: #efe;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:visited{
+    color: #00bfff;
+    text-decoration: line-through;
+}
+
+a:hover{
+    color:#f00;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+/*Headings*/
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 20px;
+    text-decoration: underline;
+    text-indent: 3px;
+}
+
+h3 {
+    font-size: 20px;
+    text-decoration: underline;
+    text-indent: 3px;
+}
+
+p{
+    font-size: 14px;
+}
+
+/*QUESTION=======================*/
+ul#AvengersAssemble{
+    /*font-size: 14px;*/
+    border: dotted 3px #000000;
+}
+
+em{
+    font-size: 7px;
+}
+
+/*Captain America*/
+img#captainamerica{
+    float: right;
+    width: 300px;
+}
+
+
+/*QUESTION=======================*/
+
+/*Sections*/
+
+/*section{*/
+/*float: left;*/
+/*width: 390px;*/
+/*margin: 10px;*/
+/*}*/
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    overflow: hidden;
+
+}
+
+
+/*Media Queries=============================================== */
+
+/*Tablet Portrait size to standard 960 (devices and browsers)*/
+/*@media screen and (min-width: 800px) and (max-width: 1010px){*/
+/*h1 {*/
+/*width: 100%;*/
+/*background-color: #0000ff;*/
+/*}*/
+/*}*/
+
+/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+/*@media only screen and (min-width: 480px) and (max-width: 799px)*/
+/*{*/
+/*h1{*/
+/*width: 100%;*/
+/*}*/
+/*section{*/
+/*float: none;*/
+/*width: 100%*/
+/*}*/
+/*}*/
+
+/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+/*@media only screen and (max-width: 479px){*/
+
+/*}*/
+
+/*h1{*/
+/*width: 100%;*/
+/*}*/
+/*section{*/
+/*float: none;*/
+/*width: 100%*/
+/*}*/
