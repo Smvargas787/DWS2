@@ -1,0 +1,98 @@
+/*Shorthand font body */
+body{
+        font: 10px/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+h1{
+        font-size: 3.8em; /*38px*/
+        width:48.780488%;  /*600/1230*/
+        margin-top: 0;
+        /*float: right;*/
+}
+
+h2{
+        font-size: 3.1em;  /*31px*/
+}
+
+h3{
+        font-size: 2.7em;  /*27px*/
+}
+
+p{
+        font-size: 1.8em;  /*18px*/
+}
+
+img {
+    max-width: 100%;
+
+}
+
+h1 a{
+        font-size: 0.395em;  /*15px*/
+}
+
+a{
+        border-bottom: 1px solid #00f;
+        font-size: 1.5em;  /*15px*/
+        text-decoration: none;
+}
+
+em, strong{
+        font-size: 1em;  /*18px*/
+}
+
+section{
+        float: left;
+        width: 31.70731707%;  /*390px1230px*/
+        margin: .81300813%;  /*10px/1230px*/
+}
+
+footer{
+        clear: left;
+}
+
+/*Site======================================================= */
+#page-wrap{
+        margin: 0 auto;
+        max-width: 96%;
+}
+
+/*.img_contrainer{width: ;}*/
+
+/*Navigation================================================== */
+
+
+/*Media Queries=============================================== */
+
+/*Tablet Portrait size to standard 960 (devices and browsers)*/
+@media screen and (min-width: 800px) and (max-width: 1010px){
+    h1 {
+        width: 100%;
+        background-color: red;
+    }
+}
+
+/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+@media only screen and (min-width: 480px) and (max-width: 799px)
+{
+    h1{
+        width: 100%;
+    }
+    section{
+        float: none;
+        width: 100%
+    }
+}
+
+/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+@media only screen and (max-width: 479px){
+
+}
+
+    h1{
+        width: 100%;
+    }
+    section{
+        float: none;
+        width: 100%
+    }
+

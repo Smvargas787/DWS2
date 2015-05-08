@@ -1,0 +1,101 @@
+/*----- Document -----*/
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+#wrapper{
+	width: 960px;
+
+}
+body{
+	padding: 30px 0;
+	font: .8125em/1 eurostile, geneva, verdana, arial, sans-serif;
+	color: #fff;
+	background-image: url("../img/bg_overlay.png");
+	background-repeat: round;
+	background-position: 0px 0px;
+}
+
+h2{
+	font-size: 1.1em;
+	kerning: .1em;
+	text-align: center;
+}
+
+span{
+	font-size: .9em;
+}
+
+h3{
+	color: #C5FA87;
+	font-size: 1.1em;
+	kerning: .1em;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	width: 600px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h4{
+	color: #8AE6E4;
+	font-size: 1.4em;
+
+	text-align: center;
+	width: 600px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+h4 li{
+	text-align: center;
+	width: 600px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p, UL{
+	font-size: .9em;
+	kerning: .075;
+	font-family: sans-serif, geneva, "verdana", sans-serif, 'Open Sans', arial;
+}
+
+Li{
+	color: #CCFF9F;
+	font-size: 1.1em;
+}
+
+ul nav{
+	background-image: url("../img/bg_nav.png");
+	overflow: auto;
+}
+
+STRONG{
+	color: #ADEA50;
+}
+
+EM{
+	color: #7489FF;
+}
+
+A{
+	color: #C5FA87;
+}
+
+Footer{
+	color: #8AE6E4;
+	font-size: .8em;
+	kerning: .15em;
+}
