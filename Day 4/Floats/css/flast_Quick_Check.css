@@ -1,0 +1,41 @@
+#wrapper{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header{
+    background-color: #5174d5;
+}
+
+#sidebar{
+    background-color: #e3e3e3;
+    width: 367px;
+}
+
+#main{
+    background-color: #a9a9a9;
+    width: 593px;
+
+}
+
+#footer{
+    background-color: #666666;
+    clear: both;
+}
+
+/*Floats HTML*/
+
+
+/*Moves side bar and main content to their rightful spots*/
+#sidebar, #main{
+    float: left;
+}
+
+/*Makes the headings padded to not be touching the borders*/
+h1, h2, p{
+    margin: 0;
+    padding: 10px;
+}
