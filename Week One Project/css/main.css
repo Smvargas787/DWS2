@@ -82,7 +82,7 @@ section > h2{
     text-indent: 3px;
 }
 
-h3 + li {
+h3:first-of-type {
     font-size: 2.0em;  /*20px*/
     text-decoration: underline;
     text-indent: 3px;
@@ -94,13 +94,14 @@ p[class~="sentences"]{
     font-size: 1.400em;  /*14px*/
 }
 
+
 /*QUESTION=======================*/
 /*ul#AvengersAssemble{*/
     /*font-size: 14px;*/
 /*}*/
 
 /*Question answered, put ul li instead of #AvengersAssemble*/
-ul li {
+ul li:nth-child(n) {
     font-size: 1.600em;  /*16px*/
     margin-top: 1%;    /*10px*/
     margin-right: 1.041%;;  /*55px*/
@@ -120,7 +121,7 @@ img#captainamerica{
 
 /*Sections*/
 
-section{
+section + p{
     float: left;
     width: 31.70731707%;  /*390px1230px*/
     margin: .81300813%;  /*10px/1230px*/
