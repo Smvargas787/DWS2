@@ -3,14 +3,31 @@
 body{
     font: 10px/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
     color: #efe;
-    background: linear-gradient(#000,#ff0000);
+    background: linear-gradient(#808080,#FFFFFF);
+}
+
+/*Background Images*/
+img#ironman{
+    float: left;
+    width: 150px;
+}
+
+
+img#thor{
+    float: right;
+    width: 150px;
 }
 
 /*Wrapper*/
 #wrapper{
-    width: 960px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     background: linear-gradient(#000,#ff0000);
-    margin-bottom: 55px;   /*Moved footer down by putting margin on*/
+    /*margin-bottom: 55px;   *//*Moved footer down by putting margin on*/
+    border-radius: 30px ;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /*Navigation*/
@@ -31,7 +48,7 @@ ul#navigation li{
 a:link{
     color: #efe;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.0em; /*16px*/
 }
 
 a:visited{
@@ -52,25 +69,27 @@ a:active{
 /*Headings*/
 
 h1{
-    font-size: 24px;
+    font-size:2.400em;  /*24px*/
     text-align: center;
     text-decoration: underline;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 2.0em;  /*20px*/
     text-decoration: underline;
     text-indent: 3px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 2.0em;  /*20px*/
     text-decoration: underline;
     text-indent: 3px;
+    margin-right: 55px;
+    margin-left: 55px;
 }
 
 p{
-    font-size: 14px;
+    font-size: 1.400em;  /*14px*/
 }
 
 /*QUESTION=======================*/
@@ -80,68 +99,74 @@ p{
 
 /*Question answered, put ul li instead of #AvengersAssemble*/
 ul li {
-    font-size: 16px;
+    font-size: 1.600em;  /*16px*/
+    margin-top: 10px;
+    margin-right: 55px;
+    margin-left: 55px;
 }
 
 em{
-    font-size: 12px;
+    font-size: 0.750em;  /*12px*/
 }
 
 /*Captain America*/
 img#captainamerica{
-    float: right;
+    float: left;
     width: 300px;
 }
 
 
-/*QUESTION=======================*/
-
 /*Sections*/
 
-/*section{*/
-/*float: left;*/
-/*width: 390px;*/
-/*margin: 10px;*/
-/*}*/
+section{
+    float: left;
+    width: 31.70731707%;  /*390px1230px*/
+    margin: .81300813%;  /*10px/1230px*/
+}
+
 
 /*Footer*/
 
 footer{
     text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+
 }
 
 
 /*Media Queries=============================================== */
 
 /*Tablet Portrait size to standard 960 (devices and browsers)*/
-/*@media screen and (min-width: 800px) and (max-width: 1010px){*/
-/*h1 {*/
-/*width: 100%;*/
-/*background-color: #0000ff;*/
-/*}*/
-/*}*/
+@media screen and (min-width: 800px) and (max-width: 1010px){
+    h1 {
+        width: 100%;
+        background-color: red;
+    }
+}
 
 /*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
-/*@media only screen and (min-width: 480px) and (max-width: 799px)*/
-/*{*/
-/*h1{*/
-/*width: 100%;*/
-/*}*/
-/*section{*/
-/*float: none;*/
-/*width: 100%*/
-/*}*/
-/*}*/
+@media only screen and (min-width: 480px) and (max-width: 799px)
+{
+    h1{
+        width: 100%;
+    }
+    section{
+        float: none;
+        width: 100%
+    }
+}
 
 /*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
-/*@media only screen and (max-width: 479px){*/
+@media only screen and (max-width: 479px){
 
-/*}*/
+}
 
-/*h1{*/
-/*width: 100%;*/
-/*}*/
-/*section{*/
-/*float: none;*/
-/*width: 100%*/
-/*}*/
+h1{
+    width: 100%;
+}
+section{
+    float: none;
+    width: 100%
+}
+
