@@ -70,19 +70,19 @@ a:active{
 
 /*Headings*/
 
-h1{
+header > h1{
     font-size:2.400em;  /*24px*/
     text-align: center;
     text-decoration: underline;
 }
 
-h2{
+section > h2{
     font-size: 2.0em;  /*20px*/
     text-decoration: underline;
     text-indent: 3px;
 }
 
-h3 {
+h3 + li {
     font-size: 2.0em;  /*20px*/
     text-decoration: underline;
     text-indent: 3px;
@@ -90,7 +90,7 @@ h3 {
     margin-left: 1.041%;  /*55px*/
 }
 
-p{
+p[class~="sentences"]{
     font-size: 1.400em;  /*14px*/
 }
 
