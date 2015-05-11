@@ -6,21 +6,27 @@ body{
     background: linear-gradient(#808080,#FFFFFF);
 }
 
+/*Logo*/
+img#logo{
+    width: 60%;  /*500px*/
+}
+
 /*Background Images*/
 img#ironman{
     float: left;
-    width: 150px;
+    width: 15%;  /*150px*/
 }
 
 
 img#thor{
     float: right;
-    width: 150px;
+    width: 15%;  /*150px*/
+
 }
 
 /*Wrapper*/
 #wrapper{
-    width: 70%;
+    width: 70%;  /*960px*/
     margin-left: auto;
     margin-right: auto;
     background: linear-gradient(#000,#ff0000);
@@ -36,12 +42,8 @@ ul#navigation li{
     display: inline-block;
     text-align: center;
     letter-spacing: 2px;
-    padding: 4px;
-    margin-right: 50px;
-    margin-left: 50px;
-    /*background-image: url("../images/avengers_thumbail.png");*/
-    /*background-repeat: no-repeat;*/
-    /*overflow: hidden;*/
+    padding: 1%;   /*4px*/
+    margin-right: 1.041%; /*50px*/
 }
 
 /*Navigation Links*/
@@ -84,8 +86,8 @@ h3 {
     font-size: 2.0em;  /*20px*/
     text-decoration: underline;
     text-indent: 3px;
-    margin-right: 55px;
-    margin-left: 55px;
+    margin-right: 1.041%; /*55px*/
+    margin-left: 1.041%;  /*55px*/
 }
 
 p{
@@ -100,9 +102,9 @@ p{
 /*Question answered, put ul li instead of #AvengersAssemble*/
 ul li {
     font-size: 1.600em;  /*16px*/
-    margin-top: 10px;
-    margin-right: 55px;
-    margin-left: 55px;
+    margin-top: 1%;    /*10px*/
+    margin-right: 1.041%;;  /*55px*/
+    margin-left: 1.041%;  /*55px*/
 }
 
 em{
@@ -112,7 +114,7 @@ em{
 /*Captain America*/
 img#captainamerica{
     float: left;
-    width: 300px;
+    width: 40%   /*300px*/
 }
 
 
@@ -141,7 +143,6 @@ footer{
 @media screen and (min-width: 800px) and (max-width: 1010px){
     h1 {
         width: 100%;
-        background-color: red;
     }
 }
 
