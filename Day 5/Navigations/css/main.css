@@ -1,0 +1,45 @@
+/*Body*/
+
+/*Navigation List Styles*/
+.container{
+    width: 35%;
+    float: left;
+}
+
+.main{
+    width: 65%;
+    float: left;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+ul li{
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    margin-left: 25px;
+    /*background: cornflowerblue;*/
+    /*float: left;*/
+
+}
+
+/*Anchor*/
+
+ul a{
+    background-color: #dad7d9;
+    color: #ff57e6;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 40px;
+}
+
+ul a:hover, .current{
+    color: #dad7d9;
+    background-color: #ff57e6;
+}
+

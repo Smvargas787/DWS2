@@ -1,0 +1,89 @@
+/*Body*/
+
+.page-wrapper{
+
+}
+/*Navigation*/
+ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+ul li{
+    width: 100px;
+    float: right;
+}
+
+/*Anchor*/
+ul a{
+    background-color: #dad7d9;
+    color: #000;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 40px;
+}
+
+ul a:hover{
+    color: #dad7d9;
+    background-color: #000080;
+}
+
+/*Headings*/
+h1{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 35px/1.5 'times new roman', Arial, Helvetica, sans-serif;
+}
+
+/*Header & Video Container*/
+.header-container{
+    width: 100%;
+    height: 900px;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    padding: 20px;
+
+}
+
+/*.video-container {*/
+    /*position: absolute;*/
+    /*top: 0%;*/
+    /*left: 0%;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+
+/*}*/
+
+/*video{*/
+    /*position: absolute;*/
+    /*z-index: -1;*/
+    /*border: solid 5px #000080;*/
+/*}*/
+
+/*Paragraphs*/
+
+p{
+    padding: 10px;
+    float: left;
+    width: 600px;
+}
+
+/*Gallery*/
+
+.page-title{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 35px/1.5 'times new roman', Arial, Helvetica, sans-serif;
+}
+
+.span3{
+    width: 100px;
+    float: right;
+}
