@@ -35,7 +35,7 @@ ul a:hover{
 }
 
 /*Headings*/
-h1{
+h1, h3{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -90,8 +90,34 @@ p{
     width: 100px;
     float: right;
 }
-
+.container-gallery{
+  width: 10%;
+}
 .gallery{
+    border-top: groove 5px #000000;
+    padding: 10px;
+}
+
+/*Tables*/
+table {
+    border-spacing:6px 0;
+}
+
+th, td {
+    color: #000080;
+    padding: 5px 30px 5px 20px;
+    font-size: 1em;
+    margin: 0;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid;
+    border-right: 1px solid #808080;
+    text-align: center;
+    width: 10px;
+    letter-spacing:5px;
+    border-collapse: collapse;
+}
+
+.panel{
     border-top: groove 5px #000000;
     padding: 10px;
 }
