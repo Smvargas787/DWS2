@@ -92,6 +92,12 @@ h2{
     width: 216px;
 }
 
+/*Contact*/
+#map{
+    width: 470px;
+    height: 500px;
+    margin-left: 0;
+}
 /*#global,#content{*/
     /*float: left;*/
 /*}*/
