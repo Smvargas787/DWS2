@@ -44,9 +44,11 @@ body{
     bottom: 300px;
     left: 380px;
     width: 475px;
+    background-image: url("../img/sprocket.gif");
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 h2{
     color: #005ACC;
-
 }

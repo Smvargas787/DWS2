@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Extra Credit/ibs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.4583335" vertical-offset="485" max-vertical-offset="900">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24096386" vertical-offset="485" max-vertical-offset="900">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extra Credit/ibs/css/web.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8633257" vertical-offset="341" max-vertical-offset="870">
-              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -670,18 +670,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extra Credit/ibs/index.html">
+    <entry file="file://$PROJECT_DIR$/Extra Credit/ibs/css/web.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.4583335" vertical-offset="485" max-vertical-offset="900">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extra Credit/ibs/css/web.css">
+    <entry file="file://$PROJECT_DIR$/Extra Credit/ibs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8633257" vertical-offset="341" max-vertical-offset="870">
-          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.24096386" vertical-offset="485" max-vertical-offset="900">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
           <folding />
         </state>
       </provider>
