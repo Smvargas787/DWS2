@@ -1,0 +1,52 @@
+
+/*Body*/
+body{
+    background-color: #138CFF;
+}
+
+/*Wrapper*/
+#wrapper{
+    background-color: #F3FAFF;
+}
+
+/*Headings*/
+
+/*h2*/
+#header{
+    color: #ffffff;
+    background-image: url("../img/bg_header.jpg");
+    position: relative;
+    top: -350px;
+    left: 380px;
+    height: 278px;
+    width: 760px;
+}
+
+/*h1*/
+#intellectual_business_solutions{
+    background-image: url("../img/bg_intellectual_business_solutions.png");
+    height: 46px;
+    width: 194px;
+    text-indent: -99999px;
+}
+
+/*Navigation*/
+#quote{
+    background-image: url("../img/quote_left.gif");
+    background-repeat: no-repeat;
+    color: #808080;
+    opacity: 0.4;
+}
+
+/*h2 Who We Are*/
+#content{
+    position: relative;
+    bottom: 300px;
+    left: 380px;
+    width: 475px;
+}
+
+h2{
+    color: #005ACC;
+
+}
