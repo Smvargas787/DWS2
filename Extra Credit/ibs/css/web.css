@@ -40,14 +40,21 @@ body{
     text-align: center;
 }
 
-#nav li{
+ul#nav{
     padding: 0;
     list-style: none;
+    margin: 0;
+    width: 194px;
+}
+
+#nav li{
+    padding-left: 10px;
+    font-style: italic;
+    border: 1px solid #808080;
 }
 
 #active{
-    border-bottom: solid 1px #808080;
-    border-bottom-width: thin;
+    color: #1e90ff;
 }
 
 #phone,address{
