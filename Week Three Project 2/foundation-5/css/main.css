@@ -1,0 +1,71 @@
+Body {
+    background-image: url("../img/lifting_up.jpg");
+    color: #ffffff;
+    background-color: #808080;
+}
+
+.container{
+    width: 960px;
+}
+
+/*Navigation*/
+ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+
+}
+
+ul li{
+    width: 230px;
+    position: absolute;
+    right:50px;
+    padding: 5px;
+
+}
+
+/*Anchor*/
+ul a{
+    opacity: 0.78;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 40px;
+
+}
+
+ul a:hover{
+    color: purple;
+    background-color: #ffff00;
+}
+
+/*Headings*/
+h1, h2, h3{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font: 35px/1.5 'open sans', Arial, Helvetica, sans-serif;
+}
+
+
+em{
+    position: absolute;
+    bottom: 630px;
+    right: 455px;
+    color: purple;
+    background-color: #ffff00;
+}
+
+p{
+   text-align: center;
+}
+
+img {
+    position: absolute;
+    right: 360px;
+}
+
+.meet{
+    color: #ffffff;
+    text-align: center;
+}
