@@ -1,5 +1,5 @@
 Body {
-    background-image: url("../img/lifting_up.jpg");
+    background-image: url("../img/cross2.jpg");
     color: #ffffff;
     background-color: #808080;
 }
@@ -50,14 +50,17 @@ h1, h2, h3{
 
 em{
     position: absolute;
-    bottom: 630px;
-    right: 455px;
-    color: purple;
+    bottom: 580px;
+    right: 445px;
+    color: #800080;
     background-color: #ffff00;
 }
 
 p{
    text-align: center;
+    color: #000000;
+    border: 5px #ffffff solid;
+    background-color: #ffffff;
 }
 
 img {
@@ -66,6 +69,7 @@ img {
 }
 
 .meet{
-    color: #ffffff;
+    color: #000;
     text-align: center;
 }
+
